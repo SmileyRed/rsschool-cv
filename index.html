@@ -6,92 +6,93 @@
    <title>Summary</title>
    <meta name="description" content="The HTML5 Herald">
    <meta name="author" content="SitePoint">
+   <link rel="stylesheet" type="text/css" href="/normalize.css" />
    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <header>
-      <nav>
-         <ul class="nav__list">
-            <li class="list__item"><a href="#contacts" class="link-list">Contacts</a></li>
-            <li class="list__item"><a href="#about-me" class="link-list">About me</a></li>
-            <li class="list__item"><a href="#skills" class="link-list">Skills</a></li>
-            <li class="list__item"><a href="#code" class="link-list">Code</a></li>
-            <li class="list__item"><a href="#courses" class="link-list">Courses</a></li>
-            <li class="list__item"><a href="#english" class="link-list">English</a></li>
-         </ul>
-      </nav>
-   </header>
-   <div class="photo__profile">
-      <img src="/rsschool-cv/img/fotka.jpg" alt="my photo on a boat against the background of mountains"
-         class="profile__photo">
-      <h1 class="name">Tarasov Oleg</h1>
-      <div>Junior Frontend Developer</div>
-   </div>
-   <main class="container">
-      <div class="body__block">
-         <h2 class="block__header" id="contacts">Contacts</h2>
-         <ul class="block__list">
-            <li>Git: @SmileyRed</li>
-            <li>email: choperman@yandex.ru</li>
-            <li>discord: Red_Smiley#5183</li>
-         </ul>
+   <div class="wrapper">
+      <header>
+         <nav>
+            <ul class="nav__list">
+               <li class="list__item"><a href="#contacts" class="link-list">Contacts</a></li>
+               <li class="list__item"><a href="#about-me" class="link-list">About me</a></li>
+               <li class="list__item"><a href="#skills" class="link-list">Skills</a></li>
+               <li class="list__item"><a href="#code" class="link-list">Code</a></li>
+               <li class="list__item"><a href="#courses" class="link-list">Courses</a></li>
+               <li class="list__item"><a href="#english" class="link-list">English</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="photo__profile">
+         <img src="img/fotka.jpg" alt="my photo on a boat against the background of mountains" class="profile__photo">
+         <h1 class="name">Tarasov Oleg</h1>
+         <div>Junior Frontend Developer</div>
       </div>
-      <div class="body__block">
-         <h2 class="block__header" id="about-me">About me</h2>
-         <div>
-            <span>
-               I am a novice frontend developer. I like programming, I find it interesting and fascinating. I am
-               currently
-               taking JavaScript courses. I hope t find a project in the future where I will improve my developer
-               skills.
-               I
-               will be glad to work under the guidance of an experienced developer and participate in a real project
-               to
-               improve my skills.
-            </span>
+      <main class="container">
+         <div class="body__block">
+            <h2 class="block__header" id="contacts">Contacts</h2>
+            <ul class="block__list">
+               <li>Git: @SmileyRed</li>
+               <li>email: choperman@yandex.ru</li>
+               <li>discord: Red_Smiley#5183</li>
+            </ul>
          </div>
-      </div>
-      <div class="body__block">
-         <h2 class="block__header" id="skills">Skills</h2>
-         <ul class="block__list">
-            <li>Web-development: HTML5, CSS3, JavaScript</li>
-         </ul>
-      </div>
-      <div class="body__block">
-         <h2 class="block__header" id="code">Code</h2>
-         <pre class="pre">
-            <code>
-               function factorial(n) {
-                  if(n &lt; 0) return null;
-                  if (n &lt;= 1) return 1;
-                  return n * factorial(n-1);
-               }
-            </code>
-         </pre>
-      </div>
-      <div class="body__block body__block--without-border">
-         <h2 class="block__header" id="courses">Courses</h2>
-         <ul class="block__list">
-            <li>RS School: JavaScript/Frontend Stage#1</li>
-         </ul>
-      </div>
-      <div class="body__block body__block--without-border">
-         <h2 class="block__header" id="english">English</h2>
-         <ul class="block__list">
-            <li>A2</li>
-         </ul>
-      </div>
-   </main>
-   <footer class="footer">
-      <div class="logo">
-         <a href="https://rs.school/js/"><img class="logo__item" src="/rsschool-cv/img/rs_school_js.svg"
-               alt="link rsschool"></a>
-      </div>
-      <span class="item-data">2022</span>
-      <a href="https://github.com/SmileyRed"><img class="logo__github" src="/rsschool-cv/img/github.png"
-            alt="link github"></a>
-   </footer>
+         <div class="body__block">
+            <h2 class="block__header" id="about-me">About me</h2>
+            <div>
+               <span>
+                  I am a novice frontend developer. I like programming, I find it interesting and fascinating. I am
+                  currently
+                  taking JavaScript courses. I hope t find a project in the future where I will improve my developer
+                  skills.
+                  I
+                  will be glad to work under the guidance of an experienced developer and participate in a real project
+                  to
+                  improve my skills.
+               </span>
+            </div>
+         </div>
+         <div class="body__block">
+            <h2 class="block__header" id="skills">Skills</h2>
+            <ul class="block__list">
+               <li>Web-development: HTML5, CSS3, JavaScript</li>
+            </ul>
+         </div>
+         <div class="body__block">
+            <h2 class="block__header" id="code">Code</h2>
+            <pre class="pre">
+               <code>
+                  function factorial(n) {
+                     if(n &lt; 0) return null;
+                     if (n &lt;= 1) return 1;
+                     return n * factorial(n-1);
+                  }
+               </code>
+            </pre>
+         </div>
+         <div class="body__block body__block--without-border">
+            <h2 class="block__header" id="courses">Courses</h2>
+            <ul class="block__list">
+               <li>RS School: JavaScript/Frontend Stage#0</li>
+            </ul>
+         </div>
+         <div class="body__block body__block--without-border">
+            <h2 class="block__header" id="english">English</h2>
+            <ul class="block__list">
+               <li>A2</li>
+            </ul>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="logo">
+            <a href="https://rs.school/js/"><img class="logo__item" src="./img/rs_school_js.svg"
+                  alt="link rsschool"></a>
+         </div>
+         <span class="item-data">2022</span>
+         <a href="https://github.com/SmileyRed"><img class="logo__github" src="./img/github.png" alt="link github"></a>
+      </footer>
+   </div>
 </body>
 
 </html>
